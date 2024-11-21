@@ -1,8 +1,35 @@
 .elenco__content{
     height: 70vh;
+    overflow-x: auto; 
+    padding-bottom: 2em; 
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    
+
+    &::-webkit-scrollbar {
+        height: 10px; /* Altura da barra de rolagem */
+        cursor: pointer;
+        
+    }
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 5px; 
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #313131; 
+        cursor: pointer;
+    }
 
     .elenco__carrossel{
         display: flex;
+        gap: 2rem;
         
         #Mia-Goth{
             content: url(../../pearl-images/Mia-Goth-PeB.png);

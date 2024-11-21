@@ -5,10 +5,12 @@
         align-items: center;
         flex-direction: column;
         padding-bottom: 8em;
+        padding-top: 6em;
     &__content{
         
         display: inline;
         .sinopse{
+            padding: 2em;
             max-width: 600px;
             text-align: justify;
             padding-bottom: 4em;
