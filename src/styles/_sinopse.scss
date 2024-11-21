@@ -1,0 +1,19 @@
+.sinopse-trailer{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 8em;
+    &__content{
+        
+        display: inline;
+        .sinopse{
+            max-width: 600px;
+            text-align: justify;
+            padding-bottom: 4em;
+        }
+        
+    }
+}
+

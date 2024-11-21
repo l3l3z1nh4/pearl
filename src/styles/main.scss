@@ -1,0 +1,23 @@
+@use 'font';
+@use 'color';
+@use 'header';
+@use 'hero';
+@use 'elenco';
+@use 'sinopse';
+@use 'footer';
+
+*{
+    list-style: none;
+    text-decoration: none; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:PP Eiko LightItalic ;
+}
+
+body{
+    background-color: #1D1B1B;
+    color:#FFFFF5;
+    cursor:  url('../../icons/ax_min_png.png') 2 2, auto;
+}
+

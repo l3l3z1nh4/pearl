@@ -1,0 +1,71 @@
+.elenco__content{
+    height: 70vh;
+
+    .elenco__carrossel{
+        display: flex;
+        
+        #Mia-Goth{
+            content: url(../../pearl-images/Mia-Goth-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/Mia-Goth.png);
+            }
+        }
+
+        #Tandi-Wright{
+            content: url(../../pearl-images/Tandi-Wright-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/Tandi-Wright.png);
+            }
+        }
+
+        #Emma-Jenkins-Purro{
+            content: url(../../pearl-images/Emma-Jenkins-Purro-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/Emma-Jenkins-Purro.png);
+            }
+        }
+
+        #Theda{
+            content: url(../../pearl-images/Theda-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/Theda.png);
+            }
+        }
+
+        #David-Corenswe{
+            content: url(../../pearl-images/David-Corenswe-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/David-Corenswe.png);
+            }
+        }
+
+        #David-Corenswe{
+            content: url(../../pearl-images/David-Corenswe-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/David-Corenswe.png);
+            }
+        }
+
+        #Matthew-Sunderland{
+            content: url(../../pearl-images/Matthew-Sunderland-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/Matthew-Sunderland.png);
+            }
+        }
+
+        #Alistair-Sewell{
+            content: url(../../pearl-images/Alistair-Sewell-PeB.png);
+
+            &:hover{
+                content: url(../../pearl-images/Alistair-Sewell.png);
+            }
+        }
+    }
+}

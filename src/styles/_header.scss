@@ -1,0 +1,33 @@
+@use 'color';
+@use 'font';
+.header{
+    margin-top: 30px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: color.$Claro ;
+    font-size: 1em;
+        &__container{
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        &__links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            &_item{
+                display: block;
+                padding: 0;
+                max-width: 1em;
+                
+            }
+            a{
+                color: color.$Escuro;
+                
+                &:hover{
+                    font-weight: bolder
+                }
+            }
+        }
+}

@@ -1,0 +1,26 @@
+@use 'color';
+
+.footer__container{
+    text-align: center;
+
+    &__ficha-tecnica{
+        border-top: solid 1px color.$Claro;
+        padding-top: 1em;
+        padding-bottom: 1.5em;
+    }
+    &__github{
+        background-color: color.$Claro;
+        color: color.$Escuro ;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-bottom: 2em;
+
+        a{
+            color: color.$Escuro ;
+
+            &:hover{
+                font-weight: bolder;
+            }
+        }
+    }
+}
