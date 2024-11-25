@@ -18,4 +18,12 @@
         
     }
 }
+.frame-yt{
+    @media screen and (max-width: 767px){
+        width: 100%;
+        max-width: 900px; /* Limita a largura máxima em telas grandes */
+        height: auto; /* Mantém a proporção automática */
+    }
+}
+
 

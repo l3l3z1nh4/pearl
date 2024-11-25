@@ -31,6 +31,17 @@
         display: flex;
         gap: 2rem;
         
+
+        @media screen and (max-width: 767px){
+            gap: 0rem;
+        }
+
+        &__atores{
+            @media screen and (max-width: 767px){
+                padding-right: 2em;
+            }
+        }
+        
         #Mia-Goth{
             content: url(../../pearl-images/Mia-Goth-PeB.png);
 

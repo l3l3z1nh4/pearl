@@ -4,16 +4,19 @@
 }
 .hero__content{
     font-size: 4em;
-    font-weight: lighter;
     text-align: center;
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
     
+    
+    @media screen and (max-width: 767px){
+       
+        text-align: center;
+        font-size: 1.5em;
+    }
     
 
     #logo{

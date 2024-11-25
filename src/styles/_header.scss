@@ -1,20 +1,30 @@
 @use 'color';
 @use 'font';
 .header{
+    
     margin-top: 30px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     background-color: color.$Claro ;
     font-size: 1em;
+
         &__container{
             max-width: 80%;
             margin: 0 auto;
+            align-items: center;
+            @media screen and (max-width: 767px){
+                text-align: center;
+                padding-left: 1em;
+                padding-right: 2em;
+            }
         }
+        
 
         &__links{
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             
             &_item{
                 display: block;
@@ -26,7 +36,7 @@
                 color: color.$Escuro;
                 
                 &:hover{
-                    font-weight: bolder
+                    font-family: PP Eiko BlackItalic;
                 }
             }
         }
