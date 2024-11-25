@@ -1,5 +1,7 @@
 @use 'color';
-
+.hero{
+    overflow-x: hidden;
+}
 .hero__content{
     font-size: 4em;
     font-weight: lighter;
@@ -11,6 +13,8 @@
     align-items: center;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    
+    
 
     #logo{
         margin-top: 1em;
@@ -35,6 +39,7 @@
         }
 
         position: relative;
+        overflow-x: hidden;
     }
 
 
